@@ -1,5 +1,5 @@
 import React from 'react'
-import GetJson from '../../../../Common/DataFetchers/GetJson'
+import GetJson from '../../../../common/DataFetchers/GetJson'
 
 const DisplayProducts =()=>
     <div>

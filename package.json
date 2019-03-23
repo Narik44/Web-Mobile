@@ -19,6 +19,7 @@
   "author": "kiran nagabhyru <kiran.nagabhyru@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.4.2",
     "axios": "^0.18.0",
     "react": "^16.8.2"
   },

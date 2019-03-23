@@ -1,3 +1,4 @@
+const path = require('path');
 /**
  * Implement Gatsby's Node APIs in this file.
  *
@@ -13,7 +14,7 @@ exports.modifyWebpackConfig = ({ config, _stage }) => {
   return config.merge({
     resolve: {
       alias: {
-        Common: path.resolve(config._config.context, '../Common'),
+        Common: path.resolve(config._config.context, '../common'),
       },
     },
   })
